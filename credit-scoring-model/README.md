@@ -46,7 +46,7 @@ credit-scoring-model/
 ├── data/
 │   └── german_credit_data.csv
 ├── notebooks/
-│   └── 01_eda.ipynb
+│   └── main.ipynb
 ├── models/
 │   ├── credit_scoring_logreg.pkl
 │   └── scaler.pkl
