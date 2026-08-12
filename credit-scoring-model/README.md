@@ -9,6 +9,8 @@ Source: Kaggle — [German Credit Risk - With Target](https://www.kaggle.com/dat
  
 Target variable: `Risk` (good / bad), with a 70/30 class split.
  
+**Note on features:** while the dataset does not include explicit income or payment history fields, `Job`, `Housing`, `Saving accounts`, and `Checking account` serve as reasonable proxies for financial standing and history, which is consistent with how credit risk is assessed using categorical banking data.
+ 
 ## Approach
  
 1. **EDA** — explored distributions of Age, Credit Amount, and Duration; identified right-skew in financial features; visualized relationships between Duration, Credit Amount, Age, and Risk using boxplots.
@@ -60,3 +62,4 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 - Hyperparameter tuning (GridSearchCV) for Random Forest / Decision Tree
 - Try SMOTE for oversampling instead of class weighting
 - Deploy as a simple API or Streamlit app for interactive predictions
+ 
